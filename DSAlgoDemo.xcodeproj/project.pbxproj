@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368BC3CF29D51B8F005EFEEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3CE29D51B8F005EFEEF /* AppDelegate.swift */; };
+		368BC3D129D51B8F005EFEEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3D029D51B8F005EFEEF /* SceneDelegate.swift */; };
+		368BC3D329D51B8F005EFEEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3D229D51B8F005EFEEF /* ViewController.swift */; };
+		368BC3D629D51B8F005EFEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368BC3D429D51B8F005EFEEF /* Main.storyboard */; };
+		368BC3D829D51B8F005EFEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368BC3D729D51B8F005EFEEF /* Assets.xcassets */; };
+		368BC3DB29D51B8F005EFEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368BC3D929D51B8F005EFEEF /* LaunchScreen.storyboard */; };
+		368BC3EA29D51BEF005EFEEF /* DSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3E929D51BEF005EFEEF /* DSString.swift */; };
+		368BC3EC29D51C0F005EFEEF /* DSSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3EB29D51C0F005EFEEF /* DSSet.swift */; };
+		368BC3EE29D51C31005EFEEF /* DSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3ED29D51C31005EFEEF /* DSDictionary.swift */; };
+		368BC3F029D51C4B005EFEEF /* DSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3EF29D51C4B005EFEEF /* DSArray.swift */; };
+		368BC3F329D54635005EFEEF /* DSLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3F229D54635005EFEEF /* DSLinkedList.swift */; };
+		368BC3F629D54662005EFEEF /* DStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3F529D54662005EFEEF /* DStack.swift */; };
+		368BC3F929D54846005EFEEF /* DSQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3F829D54846005EFEEF /* DSQueue.swift */; };
+		368BC3FC29D548BC005EFEEF /* DSBinaryStree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3FB29D548BC005EFEEF /* DSBinaryStree.swift */; };
+		368BC3FF29D54A6C005EFEEF /* DSGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC3FE29D54A6C005EFEEF /* DSGraph.swift */; };
+		368BC41129D5520E005EFEEF /* AlgoBubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41029D5520E005EFEEF /* AlgoBubbleSort.swift */; };
+		368BC41329D5521F005EFEEF /* AlgoSelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41229D5521F005EFEEF /* AlgoSelectionSort.swift */; };
+		368BC41529D55243005EFEEF /* AlgoInsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41429D55243005EFEEF /* AlgoInsertionSort.swift */; };
+		368BC41729D55252005EFEEF /* AlgoShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41629D55252005EFEEF /* AlgoShellSort.swift */; };
+		368BC41929D55267005EFEEF /* AlgoMergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41829D55267005EFEEF /* AlgoMergeSort.swift */; };
+		368BC41B29D5529F005EFEEF /* AlgoHeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41A29D5529F005EFEEF /* AlgoHeapSort.swift */; };
+		368BC41D29D55301005EFEEF /* AlgoCountingSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41C29D55301005EFEEF /* AlgoCountingSort.swift */; };
+		368BC41F29D55432005EFEEF /* AlgoQuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC41E29D55432005EFEEF /* AlgoQuickSort.swift */; };
+		368BC42129D55444005EFEEF /* AlgoRadixSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC42029D55444005EFEEF /* AlgoRadixSort.swift */; };
+		368BC42329D55456005EFEEF /* AlgoBucketSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC42229D55456005EFEEF /* AlgoBucketSort.swift */; };
+		368BC42929D5559C005EFEEF /* AlgoLinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC42829D5559C005EFEEF /* AlgoLinearSearch.swift */; };
+		368BC42B29D555B2005EFEEF /* AlgoBinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC42A29D555B2005EFEEF /* AlgoBinarySearch.swift */; };
+		368BC42D29D555C4005EFEEF /* AlgoInterpolationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC42C29D555C4005EFEEF /* AlgoInterpolationSearch.swift */; };
+		368BC42F29D555E7005EFEEF /* AlgoFibonacciSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC42E29D555E7005EFEEF /* AlgoFibonacciSearch.swift */; };
+		368BC43229D55620005EFEEF /* AlgoHashSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC43129D55620005EFEEF /* AlgoHashSearch.swift */; };
+		368BC43429D55686005EFEEF /* AlgoDynamicProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC43329D55686005EFEEF /* AlgoDynamicProgramming.swift */; };
+		368BC43729D55724005EFEEF /* AlgoNaiveStringMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC43629D55724005EFEEF /* AlgoNaiveStringMatching.swift */; };
+		368BC43A29D55759005EFEEF /* AlgoRabinKarp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC43929D55759005EFEEF /* AlgoRabinKarp.swift */; };
+		368BC43D29D5580B005EFEEF /* AlgoKMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC43C29D5580B005EFEEF /* AlgoKMP.swift */; };
+		368BC44029D55888005EFEEF /* AlgoDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC43F29D55888005EFEEF /* AlgoDFS.swift */; };
+		368BC44329D558AE005EFEEF /* AlgoBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC44229D558AE005EFEEF /* AlgoBFS.swift */; };
+		368BC44629D558D6005EFEEF /* AlgoDijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC44529D558D6005EFEEF /* AlgoDijkstra.swift */; };
+		368BC44A29D559D1005EFEEF /* AlgoKruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC44929D559D1005EFEEF /* AlgoKruskal.swift */; };
+		368BC44C29D55A06005EFEEF /* AlgoPrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BC44B29D55A06005EFEEF /* AlgoPrim.swift */; };
+		36C09BF529D55D40007BE886 /* DSAlgoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C09BF429D55D40007BE886 /* DSAlgoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C09BF829D55D40007BE886 /* DSAlgoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C09BF229D55D40007BE886 /* DSAlgoKit.framework */; };
+		36C09BF929D55D40007BE886 /* DSAlgoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C09BF229D55D40007BE886 /* DSAlgoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36C09C0029D55D81007BE886 /* README-detail.md in Resources */ = {isa = PBXBuildFile; fileRef = 36C09BFF29D55D81007BE886 /* README-detail.md */; };
+		36C09C0229D56313007BE886 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 36C09C0129D56313007BE886 /* README.md */; };
+		36C09C0429D56340007BE886 /* README-detail.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36C09C0329D56340007BE886 /* README-detail.pdf */; };
+		36C09C0929D564AA007BE886 /* DataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C09C0829D564AA007BE886 /* DataStruct.swift */; };
+		36C09C0B29D56504007BE886 /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C09C0A29D56504007BE886 /* Algorithms.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C09BF629D55D40007BE886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368BC3C329D51B8F005EFEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C09BF129D55D40007BE886;
+			remoteInfo = DSAlgoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36C09BFD29D55D40007BE886 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36C09BF929D55D40007BE886 /* DSAlgoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		368BC3CB29D51B8F005EFEEF /* DSAlgoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAlgoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368BC3CE29D51B8F005EFEEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		368BC3D029D51B8F005EFEEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		368BC3D229D51B8F005EFEEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		368BC3D529D51B8F005EFEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		368BC3D729D51B8F005EFEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368BC3DA29D51B8F005EFEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		368BC3DC29D51B8F005EFEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368BC3E929D51BEF005EFEEF /* DSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSString.swift; sourceTree = "<group>"; };
+		368BC3EB29D51C0F005EFEEF /* DSSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSet.swift; sourceTree = "<group>"; };
+		368BC3ED29D51C31005EFEEF /* DSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDictionary.swift; sourceTree = "<group>"; };
+		368BC3EF29D51C4B005EFEEF /* DSArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSArray.swift; sourceTree = "<group>"; };
+		368BC3F229D54635005EFEEF /* DSLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSLinkedList.swift; sourceTree = "<group>"; };
+		368BC3F529D54662005EFEEF /* DStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DStack.swift; sourceTree = "<group>"; };
+		368BC3F829D54846005EFEEF /* DSQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSQueue.swift; sourceTree = "<group>"; };
+		368BC3FB29D548BC005EFEEF /* DSBinaryStree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSBinaryStree.swift; sourceTree = "<group>"; };
+		368BC3FE29D54A6C005EFEEF /* DSGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSGraph.swift; sourceTree = "<group>"; };
+		368BC41029D5520E005EFEEF /* AlgoBubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoBubbleSort.swift; sourceTree = "<group>"; };
+		368BC41229D5521F005EFEEF /* AlgoSelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoSelectionSort.swift; sourceTree = "<group>"; };
+		368BC41429D55243005EFEEF /* AlgoInsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoInsertionSort.swift; sourceTree = "<group>"; };
+		368BC41629D55252005EFEEF /* AlgoShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoShellSort.swift; sourceTree = "<group>"; };
+		368BC41829D55267005EFEEF /* AlgoMergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoMergeSort.swift; sourceTree = "<group>"; };
+		368BC41A29D5529F005EFEEF /* AlgoHeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoHeapSort.swift; sourceTree = "<group>"; };
+		368BC41C29D55301005EFEEF /* AlgoCountingSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoCountingSort.swift; sourceTree = "<group>"; };
+		368BC41E29D55432005EFEEF /* AlgoQuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoQuickSort.swift; sourceTree = "<group>"; };
+		368BC42029D55444005EFEEF /* AlgoRadixSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoRadixSort.swift; sourceTree = "<group>"; };
+		368BC42229D55456005EFEEF /* AlgoBucketSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoBucketSort.swift; sourceTree = "<group>"; };
+		368BC42829D5559C005EFEEF /* AlgoLinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoLinearSearch.swift; sourceTree = "<group>"; };
+		368BC42A29D555B2005EFEEF /* AlgoBinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoBinarySearch.swift; sourceTree = "<group>"; };
+		368BC42C29D555C4005EFEEF /* AlgoInterpolationSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoInterpolationSearch.swift; sourceTree = "<group>"; };
+		368BC42E29D555E7005EFEEF /* AlgoFibonacciSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoFibonacciSearch.swift; sourceTree = "<group>"; };
+		368BC43129D55620005EFEEF /* AlgoHashSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoHashSearch.swift; sourceTree = "<group>"; };
+		368BC43329D55686005EFEEF /* AlgoDynamicProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoDynamicProgramming.swift; sourceTree = "<group>"; };
+		368BC43629D55724005EFEEF /* AlgoNaiveStringMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoNaiveStringMatching.swift; sourceTree = "<group>"; };
+		368BC43929D55759005EFEEF /* AlgoRabinKarp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoRabinKarp.swift; sourceTree = "<group>"; };
+		368BC43C29D5580B005EFEEF /* AlgoKMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoKMP.swift; sourceTree = "<group>"; };
+		368BC43F29D55888005EFEEF /* AlgoDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoDFS.swift; sourceTree = "<group>"; };
+		368BC44229D558AE005EFEEF /* AlgoBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoBFS.swift; sourceTree = "<group>"; };
+		368BC44529D558D6005EFEEF /* AlgoDijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoDijkstra.swift; sourceTree = "<group>"; };
+		368BC44929D559D1005EFEEF /* AlgoKruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoKruskal.swift; sourceTree = "<group>"; };
+		368BC44B29D55A06005EFEEF /* AlgoPrim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoPrim.swift; sourceTree = "<group>"; };
+		36C09BF229D55D40007BE886 /* DSAlgoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSAlgoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C09BF429D55D40007BE886 /* DSAlgoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAlgoKit.h; sourceTree = "<group>"; };
+		36C09BFF29D55D81007BE886 /* README-detail.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README-detail.md"; sourceTree = "<group>"; };
+		36C09C0129D56313007BE886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		36C09C0329D56340007BE886 /* README-detail.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "README-detail.pdf"; sourceTree = "<group>"; };
+		36C09C0829D564AA007BE886 /* DataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStruct.swift; sourceTree = "<group>"; };
+		36C09C0A29D56504007BE886 /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368BC3C829D51B8F005EFEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C09BF829D55D40007BE886 /* DSAlgoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C09BEF29D55D40007BE886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368BC3C229D51B8F005EFEEF = {
+			isa = PBXGroup;
+			children = (
+				368BC3CD29D51B8F005EFEEF /* DSAlgoDemo */,
+				36C09BF329D55D40007BE886 /* DSAlgoKit */,
+				368BC3CC29D51B8F005EFEEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368BC3CC29D51B8F005EFEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3CB29D51B8F005EFEEF /* DSAlgoDemo.app */,
+				36C09BF229D55D40007BE886 /* DSAlgoKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368BC3CD29D51B8F005EFEEF /* DSAlgoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				36C09C0729D56496007BE886 /* DemoExtension */,
+				368BC3CE29D51B8F005EFEEF /* AppDelegate.swift */,
+				368BC3D029D51B8F005EFEEF /* SceneDelegate.swift */,
+				368BC3D229D51B8F005EFEEF /* ViewController.swift */,
+				368BC3D429D51B8F005EFEEF /* Main.storyboard */,
+				368BC3D729D51B8F005EFEEF /* Assets.xcassets */,
+				368BC3D929D51B8F005EFEEF /* LaunchScreen.storyboard */,
+				368BC3DC29D51B8F005EFEEF /* Info.plist */,
+			);
+			path = DSAlgoDemo;
+			sourceTree = "<group>";
+		};
+		368BC3E429D51BAF005EFEEF /* Array(数组) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3EF29D51C4B005EFEEF /* DSArray.swift */,
+			);
+			path = "Array(数组)";
+			sourceTree = "<group>";
+		};
+		368BC3E529D51BB9005EFEEF /* Dictionary(字典) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3ED29D51C31005EFEEF /* DSDictionary.swift */,
+			);
+			path = "Dictionary(字典)";
+			sourceTree = "<group>";
+		};
+		368BC3E629D51BC5005EFEEF /* Set(集合) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3EB29D51C0F005EFEEF /* DSSet.swift */,
+			);
+			path = "Set(集合)";
+			sourceTree = "<group>";
+		};
+		368BC3E729D51BCC005EFEEF /* String(字符串) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3E929D51BEF005EFEEF /* DSString.swift */,
+			);
+			path = "String(字符串)";
+			sourceTree = "<group>";
+		};
+		368BC3E829D51BD1005EFEEF /* DataStruct(数据结构) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3E729D51BCC005EFEEF /* String(字符串) */,
+				368BC3E429D51BAF005EFEEF /* Array(数组) */,
+				368BC3E629D51BC5005EFEEF /* Set(集合) */,
+				368BC3E529D51BB9005EFEEF /* Dictionary(字典) */,
+				368BC3F129D545C7005EFEEF /* Linked List(链表) */,
+				368BC3F429D5464E005EFEEF /* Stack(栈) */,
+				368BC3F729D54828005EFEEF /* Queue(队列) */,
+				368BC3FD29D54A57005EFEEF /* Graph(图) */,
+				368BC3FA29D54855005EFEEF /* DSBinaryStree(二叉树) */,
+			);
+			path = "DataStruct(数据结构)";
+			sourceTree = "<group>";
+		};
+		368BC3F129D545C7005EFEEF /* Linked List(链表) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3F229D54635005EFEEF /* DSLinkedList.swift */,
+			);
+			path = "Linked List(链表)";
+			sourceTree = "<group>";
+		};
+		368BC3F429D5464E005EFEEF /* Stack(栈) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3F529D54662005EFEEF /* DStack.swift */,
+			);
+			path = "Stack(栈)";
+			sourceTree = "<group>";
+		};
+		368BC3F729D54828005EFEEF /* Queue(队列) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3F829D54846005EFEEF /* DSQueue.swift */,
+			);
+			path = "Queue(队列)";
+			sourceTree = "<group>";
+		};
+		368BC3FA29D54855005EFEEF /* DSBinaryStree(二叉树) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3FB29D548BC005EFEEF /* DSBinaryStree.swift */,
+			);
+			path = "DSBinaryStree(二叉树)";
+			sourceTree = "<group>";
+		};
+		368BC3FD29D54A57005EFEEF /* Graph(图) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC3FE29D54A6C005EFEEF /* DSGraph.swift */,
+			);
+			path = "Graph(图)";
+			sourceTree = "<group>";
+		};
+		368BC40029D54BD2005EFEEF /* Algorithms(算法) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC40F29D5508F005EFEEF /* Graph(图算法) */,
+				368BC40E29D5507D005EFEEF /* Dynamic(动态规划) */,
+				368BC40D29D55058005EFEEF /* Matching(字符串匹配) */,
+				368BC40C29D5503C005EFEEF /* Search(查找) */,
+				368BC40129D54EA1005EFEEF /* Sort(排序) */,
+			);
+			path = "Algorithms(算法)";
+			sourceTree = "<group>";
+		};
+		368BC40129D54EA1005EFEEF /* Sort(排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC40B29D55025005EFEEF /* BucketSort(桶排序) */,
+				368BC40A29D5500F005EFEEF /* RadixSort(基数排序) */,
+				368BC40929D54FF0005EFEEF /* CountingSort(计数排序) */,
+				368BC40829D54FCC005EFEEF /* HeapSort(堆排序) */,
+				368BC40729D54FC3005EFEEF /* Quick Sort(快速排序) */,
+				368BC40629D54FB3005EFEEF /* MergeSort(归并排序) */,
+				368BC40529D54FA2005EFEEF /* ShellSort(希尔排序) */,
+				368BC40429D54F87005EFEEF /* InsertionSort(插入排序) */,
+				368BC40329D54ED1005EFEEF /* SelectionSort(选择排序) */,
+				368BC40229D54EB3005EFEEF /* BubbleSort(冒泡排序) */,
+			);
+			path = "Sort(排序)";
+			sourceTree = "<group>";
+		};
+		368BC40229D54EB3005EFEEF /* BubbleSort(冒泡排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41029D5520E005EFEEF /* AlgoBubbleSort.swift */,
+			);
+			path = "BubbleSort(冒泡排序)";
+			sourceTree = "<group>";
+		};
+		368BC40329D54ED1005EFEEF /* SelectionSort(选择排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41229D5521F005EFEEF /* AlgoSelectionSort.swift */,
+			);
+			path = "SelectionSort(选择排序)";
+			sourceTree = "<group>";
+		};
+		368BC40429D54F87005EFEEF /* InsertionSort(插入排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41429D55243005EFEEF /* AlgoInsertionSort.swift */,
+			);
+			path = "InsertionSort(插入排序)";
+			sourceTree = "<group>";
+		};
+		368BC40529D54FA2005EFEEF /* ShellSort(希尔排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41629D55252005EFEEF /* AlgoShellSort.swift */,
+			);
+			path = "ShellSort(希尔排序)";
+			sourceTree = "<group>";
+		};
+		368BC40629D54FB3005EFEEF /* MergeSort(归并排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41829D55267005EFEEF /* AlgoMergeSort.swift */,
+			);
+			path = "MergeSort(归并排序)";
+			sourceTree = "<group>";
+		};
+		368BC40729D54FC3005EFEEF /* Quick Sort(快速排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41E29D55432005EFEEF /* AlgoQuickSort.swift */,
+			);
+			path = "Quick Sort(快速排序)";
+			sourceTree = "<group>";
+		};
+		368BC40829D54FCC005EFEEF /* HeapSort(堆排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41A29D5529F005EFEEF /* AlgoHeapSort.swift */,
+			);
+			path = "HeapSort(堆排序)";
+			sourceTree = "<group>";
+		};
+		368BC40929D54FF0005EFEEF /* CountingSort(计数排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC41C29D55301005EFEEF /* AlgoCountingSort.swift */,
+			);
+			path = "CountingSort(计数排序)";
+			sourceTree = "<group>";
+		};
+		368BC40A29D5500F005EFEEF /* RadixSort(基数排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC42029D55444005EFEEF /* AlgoRadixSort.swift */,
+			);
+			path = "RadixSort(基数排序)";
+			sourceTree = "<group>";
+		};
+		368BC40B29D55025005EFEEF /* BucketSort(桶排序) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC42229D55456005EFEEF /* AlgoBucketSort.swift */,
+			);
+			path = "BucketSort(桶排序)";
+			sourceTree = "<group>";
+		};
+		368BC40C29D5503C005EFEEF /* Search(查找) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43029D55604005EFEEF /* HashSearch(哈希查找) */,
+				368BC42729D55567005EFEEF /* FibonacciSearch(斐波那契查找) */,
+				368BC42629D55555005EFEEF /* InterpolationSearch(插值查找) */,
+				368BC42529D55544005EFEEF /* BinarySearch(二分查找) */,
+				368BC42429D55529005EFEEF /* LinearSearch(线性查找) */,
+			);
+			path = "Search(查找)";
+			sourceTree = "<group>";
+		};
+		368BC40D29D55058005EFEEF /* Matching(字符串匹配) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43B29D557F1005EFEEF /* KMP(算法) */,
+				368BC43829D55736005EFEEF /* Rabin-Karp(算法) */,
+				368BC43529D55706005EFEEF /* NaiveStringMatching(朴素字符串匹配) */,
+			);
+			path = "Matching(字符串匹配)";
+			sourceTree = "<group>";
+		};
+		368BC40E29D5507D005EFEEF /* Dynamic(动态规划) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43329D55686005EFEEF /* AlgoDynamicProgramming.swift */,
+			);
+			path = "Dynamic(动态规划)";
+			sourceTree = "<group>";
+		};
+		368BC40F29D5508F005EFEEF /* Graph(图算法) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC44829D559C0005EFEEF /* Prim(最小生成树算法2) */,
+				368BC44729D558F7005EFEEF /* Kruskal(最小生成树) */,
+				368BC44429D558C2005EFEEF /* Dijkstra(最短路径) */,
+				368BC44129D55899005EFEEF /* BFS(广度优先) */,
+				368BC43E29D55872005EFEEF /* DFS(深度优先) */,
+			);
+			path = "Graph(图算法)";
+			sourceTree = "<group>";
+		};
+		368BC42429D55529005EFEEF /* LinearSearch(线性查找) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC42829D5559C005EFEEF /* AlgoLinearSearch.swift */,
+			);
+			path = "LinearSearch(线性查找)";
+			sourceTree = "<group>";
+		};
+		368BC42529D55544005EFEEF /* BinarySearch(二分查找) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC42A29D555B2005EFEEF /* AlgoBinarySearch.swift */,
+			);
+			path = "BinarySearch(二分查找)";
+			sourceTree = "<group>";
+		};
+		368BC42629D55555005EFEEF /* InterpolationSearch(插值查找) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC42C29D555C4005EFEEF /* AlgoInterpolationSearch.swift */,
+			);
+			path = "InterpolationSearch(插值查找)";
+			sourceTree = "<group>";
+		};
+		368BC42729D55567005EFEEF /* FibonacciSearch(斐波那契查找) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC42E29D555E7005EFEEF /* AlgoFibonacciSearch.swift */,
+			);
+			path = "FibonacciSearch(斐波那契查找)";
+			sourceTree = "<group>";
+		};
+		368BC43029D55604005EFEEF /* HashSearch(哈希查找) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43129D55620005EFEEF /* AlgoHashSearch.swift */,
+			);
+			path = "HashSearch(哈希查找)";
+			sourceTree = "<group>";
+		};
+		368BC43529D55706005EFEEF /* NaiveStringMatching(朴素字符串匹配) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43629D55724005EFEEF /* AlgoNaiveStringMatching.swift */,
+			);
+			path = "NaiveStringMatching(朴素字符串匹配)";
+			sourceTree = "<group>";
+		};
+		368BC43829D55736005EFEEF /* Rabin-Karp(算法) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43929D55759005EFEEF /* AlgoRabinKarp.swift */,
+			);
+			path = "Rabin-Karp(算法)";
+			sourceTree = "<group>";
+		};
+		368BC43B29D557F1005EFEEF /* KMP(算法) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43C29D5580B005EFEEF /* AlgoKMP.swift */,
+			);
+			path = "KMP(算法)";
+			sourceTree = "<group>";
+		};
+		368BC43E29D55872005EFEEF /* DFS(深度优先) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC43F29D55888005EFEEF /* AlgoDFS.swift */,
+			);
+			path = "DFS(深度优先)";
+			sourceTree = "<group>";
+		};
+		368BC44129D55899005EFEEF /* BFS(广度优先) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC44229D558AE005EFEEF /* AlgoBFS.swift */,
+			);
+			path = "BFS(广度优先)";
+			sourceTree = "<group>";
+		};
+		368BC44429D558C2005EFEEF /* Dijkstra(最短路径) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC44529D558D6005EFEEF /* AlgoDijkstra.swift */,
+			);
+			path = "Dijkstra(最短路径)";
+			sourceTree = "<group>";
+		};
+		368BC44729D558F7005EFEEF /* Kruskal(最小生成树) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC44929D559D1005EFEEF /* AlgoKruskal.swift */,
+			);
+			path = "Kruskal(最小生成树)";
+			sourceTree = "<group>";
+		};
+		368BC44829D559C0005EFEEF /* Prim(最小生成树算法2) */ = {
+			isa = PBXGroup;
+			children = (
+				368BC44B29D55A06005EFEEF /* AlgoPrim.swift */,
+			);
+			path = "Prim(最小生成树算法2)";
+			sourceTree = "<group>";
+		};
+		36C09BF329D55D40007BE886 /* DSAlgoKit */ = {
+			isa = PBXGroup;
+			children = (
+				36C09BFE29D55D5B007BE886 /* Documents(文档) */,
+				368BC3E829D51BD1005EFEEF /* DataStruct(数据结构) */,
+				368BC40029D54BD2005EFEEF /* Algorithms(算法) */,
+				36C09BF429D55D40007BE886 /* DSAlgoKit.h */,
+			);
+			path = DSAlgoKit;
+			sourceTree = "<group>";
+		};
+		36C09BFE29D55D5B007BE886 /* Documents(文档) */ = {
+			isa = PBXGroup;
+			children = (
+				36C09C0329D56340007BE886 /* README-detail.pdf */,
+				36C09BFF29D55D81007BE886 /* README-detail.md */,
+				36C09C0129D56313007BE886 /* README.md */,
+			);
+			path = "Documents(文档)";
+			sourceTree = "<group>";
+		};
+		36C09C0729D56496007BE886 /* DemoExtension */ = {
+			isa = PBXGroup;
+			children = (
+				36C09C0829D564AA007BE886 /* DataStruct.swift */,
+				36C09C0A29D56504007BE886 /* Algorithms.swift */,
+			);
+			path = DemoExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36C09BED29D55D40007BE886 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C09BF529D55D40007BE886 /* DSAlgoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		368BC3CA29D51B8F005EFEEF /* DSAlgoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368BC3DF29D51B8F005EFEEF /* Build configuration list for PBXNativeTarget "DSAlgoDemo" */;
+			buildPhases = (
+				368BC3C729D51B8F005EFEEF /* Sources */,
+				368BC3C829D51B8F005EFEEF /* Frameworks */,
+				368BC3C929D51B8F005EFEEF /* Resources */,
+				36C09BFD29D55D40007BE886 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C09BF729D55D40007BE886 /* PBXTargetDependency */,
+			);
+			name = DSAlgoDemo;
+			productName = DSAlgoDemo;
+			productReference = 368BC3CB29D51B8F005EFEEF /* DSAlgoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C09BF129D55D40007BE886 /* DSAlgoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C09BFA29D55D40007BE886 /* Build configuration list for PBXNativeTarget "DSAlgoKit" */;
+			buildPhases = (
+				36C09BED29D55D40007BE886 /* Headers */,
+				36C09BEE29D55D40007BE886 /* Sources */,
+				36C09BEF29D55D40007BE886 /* Frameworks */,
+				36C09BF029D55D40007BE886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSAlgoKit;
+			productName = DSAlgoKit;
+			productReference = 36C09BF229D55D40007BE886 /* DSAlgoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368BC3C329D51B8F005EFEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					368BC3CA29D51B8F005EFEEF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					36C09BF129D55D40007BE886 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = 368BC3C629D51B8F005EFEEF /* Build configuration list for PBXProject "DSAlgoDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368BC3C229D51B8F005EFEEF;
+			productRefGroup = 368BC3CC29D51B8F005EFEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368BC3CA29D51B8F005EFEEF /* DSAlgoDemo */,
+				36C09BF129D55D40007BE886 /* DSAlgoKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368BC3C929D51B8F005EFEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368BC3DB29D51B8F005EFEEF /* LaunchScreen.storyboard in Resources */,
+				368BC3D829D51B8F005EFEEF /* Assets.xcassets in Resources */,
+				368BC3D629D51B8F005EFEEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C09BF029D55D40007BE886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C09C0229D56313007BE886 /* README.md in Resources */,
+				36C09C0029D55D81007BE886 /* README-detail.md in Resources */,
+				36C09C0429D56340007BE886 /* README-detail.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368BC3C729D51B8F005EFEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368BC42329D55456005EFEEF /* AlgoBucketSort.swift in Sources */,
+				368BC3F029D51C4B005EFEEF /* DSArray.swift in Sources */,
+				368BC42D29D555C4005EFEEF /* AlgoInterpolationSearch.swift in Sources */,
+				36C09C0B29D56504007BE886 /* Algorithms.swift in Sources */,
+				368BC43A29D55759005EFEEF /* AlgoRabinKarp.swift in Sources */,
+				368BC41729D55252005EFEEF /* AlgoShellSort.swift in Sources */,
+				368BC3FC29D548BC005EFEEF /* DSBinaryStree.swift in Sources */,
+				368BC41D29D55301005EFEEF /* AlgoCountingSort.swift in Sources */,
+				368BC3EE29D51C31005EFEEF /* DSDictionary.swift in Sources */,
+				368BC44029D55888005EFEEF /* AlgoDFS.swift in Sources */,
+				368BC43229D55620005EFEEF /* AlgoHashSearch.swift in Sources */,
+				368BC42F29D555E7005EFEEF /* AlgoFibonacciSearch.swift in Sources */,
+				368BC3D329D51B8F005EFEEF /* ViewController.swift in Sources */,
+				368BC41F29D55432005EFEEF /* AlgoQuickSort.swift in Sources */,
+				368BC3F629D54662005EFEEF /* DStack.swift in Sources */,
+				368BC3CF29D51B8F005EFEEF /* AppDelegate.swift in Sources */,
+				368BC3D129D51B8F005EFEEF /* SceneDelegate.swift in Sources */,
+				368BC44C29D55A06005EFEEF /* AlgoPrim.swift in Sources */,
+				368BC42929D5559C005EFEEF /* AlgoLinearSearch.swift in Sources */,
+				368BC3F929D54846005EFEEF /* DSQueue.swift in Sources */,
+				368BC3EA29D51BEF005EFEEF /* DSString.swift in Sources */,
+				36C09C0929D564AA007BE886 /* DataStruct.swift in Sources */,
+				368BC41329D5521F005EFEEF /* AlgoSelectionSort.swift in Sources */,
+				368BC41529D55243005EFEEF /* AlgoInsertionSort.swift in Sources */,
+				368BC44329D558AE005EFEEF /* AlgoBFS.swift in Sources */,
+				368BC3FF29D54A6C005EFEEF /* DSGraph.swift in Sources */,
+				368BC3EC29D51C0F005EFEEF /* DSSet.swift in Sources */,
+				368BC42129D55444005EFEEF /* AlgoRadixSort.swift in Sources */,
+				368BC43729D55724005EFEEF /* AlgoNaiveStringMatching.swift in Sources */,
+				368BC43429D55686005EFEEF /* AlgoDynamicProgramming.swift in Sources */,
+				368BC43D29D5580B005EFEEF /* AlgoKMP.swift in Sources */,
+				368BC44A29D559D1005EFEEF /* AlgoKruskal.swift in Sources */,
+				368BC41B29D5529F005EFEEF /* AlgoHeapSort.swift in Sources */,
+				368BC3F329D54635005EFEEF /* DSLinkedList.swift in Sources */,
+				368BC44629D558D6005EFEEF /* AlgoDijkstra.swift in Sources */,
+				368BC41929D55267005EFEEF /* AlgoMergeSort.swift in Sources */,
+				368BC41129D5520E005EFEEF /* AlgoBubbleSort.swift in Sources */,
+				368BC42B29D555B2005EFEEF /* AlgoBinarySearch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C09BEE29D55D40007BE886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C09BF729D55D40007BE886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C09BF129D55D40007BE886 /* DSAlgoKit */;
+			targetProxy = 36C09BF629D55D40007BE886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		368BC3D429D51B8F005EFEEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368BC3D529D51B8F005EFEEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		368BC3D929D51B8F005EFEEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368BC3DA29D51B8F005EFEEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368BC3DD29D51B8F005EFEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		368BC3DE29D51B8F005EFEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368BC3E029D51B8F005EFEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9E6VPNRYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSAlgoDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoji.DSAlgoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368BC3E129D51B8F005EFEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9E6VPNRYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSAlgoDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoji.DSAlgoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36C09BFB29D55D40007BE886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F9E6VPNRYT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoji.DSAlgoKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36C09BFC29D55D40007BE886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F9E6VPNRYT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaoji.DSAlgoKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368BC3C629D51B8F005EFEEF /* Build configuration list for PBXProject "DSAlgoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368BC3DD29D51B8F005EFEEF /* Debug */,
+				368BC3DE29D51B8F005EFEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368BC3DF29D51B8F005EFEEF /* Build configuration list for PBXNativeTarget "DSAlgoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368BC3E029D51B8F005EFEEF /* Debug */,
+				368BC3E129D51B8F005EFEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C09BFA29D55D40007BE886 /* Build configuration list for PBXNativeTarget "DSAlgoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C09BFB29D55D40007BE886 /* Debug */,
+				36C09BFC29D55D40007BE886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368BC3C329D51B8F005EFEEF /* Project object */;
+}
