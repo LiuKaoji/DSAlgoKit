@@ -2,7 +2,7 @@
 # Swift常用数据结构与算法
 
 数据结构和算法是计算机科学的基础概念，它们分别用于存储数据和解决问题。以下是一些常见的数据结构和算法类型。
-[更详细描述请点击参阅另一个MD文件]([相对路径/README.md](https://github.com/LiuKaoji/DSAlgoKit/blob/main/DSAlgoKit/Documents(%E6%96%87%E6%A1%A3)/README-detail.md))
+[详细描述]([相对路径/README.md](https://github.com/LiuKaoji/DSAlgoKit/blob/main/DSAlgoKit/Documents(%E6%96%87%E6%A1%A3)/README-detail.md))  或  [PDF下载](https://github.com/LiuKaoji/DSAlgoKit/releases/download/1.0.0/README-detail.pdf)
 
 
 ## 数据结构
